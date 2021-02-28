@@ -1,0 +1,83 @@
+body
+{
+	margin: 0px;
+	color: white;
+
+}
+#main-nav
+{
+	background-color: black;
+	
+	display: flex;
+	padding: 8px;
+	align-items: center;
+	justify-content: space-between;
+}
+#links a
+{
+	color: purple;
+	text-decoration: none;
+	padding: 5px 15px;
+}
+#links a:hover
+{
+	background-color: pink;
+	color: cyan;
+	border-radius: 8px;
+	box-shadow: 0 0 15px red;
+}
+#main-content
+{
+	background: url('diwali1.jpg') no-repeat scroll center ;
+	background-size: cover;
+	height: 100vh;
+	
+}
+#main-content-wrapper
+{
+	background-color: rgba(0,0,o,0.3);
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+span
+{
+	padding: 5px;
+}
+#main-content-wrapper button
+{
+	background-color: black;
+	color: orange;
+	border: none;
+	outline: none;
+	padding: 10px 25px;
+	font-size: 16px;
+	border-radius: 10px;
+	margin-top: 40px;
+}
+#main-content-wrapper button:hover
+{
+	box-shadow: 0 0 10px white;
+	cursor: pointer;
+}
+@media (max-width: 600px)
+{
+	#main-nav
+	{
+		flex-direction: column;
+
+	}
+	#nav-items
+	{
+		margin-top: 20px;
+	}
+}
+#main-content-wrapper h2
+{
+	margin:0px;
+	font-size: 40px;
+}
+
